@@ -33,6 +33,7 @@ DWORD dwRuntimeErrorDWORD = 0;
 //	}
 //	return 0;
 //}
+///not needed anymore since we do this  directy with our own functions 
 
 bool StartSDK ( void )
 {
@@ -56,7 +57,7 @@ bool LoadSDKDLLs ( void )
 	return true;
 }
 
-bool CreateSDKApplication ( int w,int h,HINSTANCE hinstance,HWND hwnd)
+bool CreateSDKApplication ( int w,int h,HINSTANCE hinstance,HWND hwnd)//this alow us to use our own winid application
 {
 	dbPassDLLs();
 
