@@ -1,0 +1,5 @@
+﻿  CBitmapC.cpp
+  CDataC.cpp
+  Generating Code...
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets(1299,5): warning MSB8012: TargetPath(C:\Users\tess\Documents\Visual Studio 2012\Projects\DarkGDK - Unofficial r114(full source)\DarkGDK\DarkGDK\Code\Compiler - Visual Studio 9\Bitmap\.\Release\Bitmap.lib) does not match the Library's OutputFile property value (C:\Users\tess\Documents\Visual Studio 2012\Projects\DarkGDK - Unofficial r114(full source)\DarkGDK\DarkGDK\Code\Lib\VS9\Bitmap.lib). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+  Bitmap.vcxproj -> C:\Users\tess\Documents\Visual Studio 2012\Projects\DarkGDK - Unofficial r114(full source)\DarkGDK\DarkGDK\Code\Compiler - Visual Studio 9\Bitmap\.\Release\Bitmap.lib

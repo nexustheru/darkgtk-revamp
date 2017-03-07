@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Sound">
+      <UniqueIdentifier>{cb596134-b01d-4b97-a0f7-07b994acc09d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Error">
+      <UniqueIdentifier>{871a80fd-c50e-4928-b5a2-dd54aeb808be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data">
+      <UniqueIdentifier>{5b3c1b37-9a4b-4572-9bf7-c6571a35cda7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\Dark Basic Pro SDK\SHARED\Sound\CSoundC.cpp">
+      <Filter>Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Dark Basic Pro SDK\SHARED\Sound\CSoundManagerC.cpp">
+      <Filter>Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Dark Basic Pro SDK\SHARED\Sound\dsutil.cpp">
+      <Filter>Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Dark Basic Pro SDK\SHARED\Sound\dxutil.cpp">
+      <Filter>Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Dark Basic Pro SDK\SHARED\Data\CDataC.cpp">
+      <Filter>Data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Dark Basic Pro SDK\Shared\Sound\ADPCMtoWAV.cpp" />
+    <ClCompile Include="..\..\..\..\Dark Basic Pro SDK\SHARED\Core\globstruct.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\Dark Basic Pro SDK\SHARED\Sound\CSoundC.h">
+      <Filter>Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Dark Basic Pro SDK\SHARED\Sound\CSoundDataC.h">
+      <Filter>Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Dark Basic Pro SDK\SHARED\Sound\CSoundManagerC.h">
+      <Filter>Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Dark Basic Pro SDK\SHARED\Sound\dsutil.h">
+      <Filter>Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Dark Basic Pro SDK\SHARED\Sound\dxutil.h">
+      <Filter>Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Dark Basic Pro SDK\SHARED\Error\CError.h">
+      <Filter>Error</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Dark Basic Pro SDK\SHARED\Error\CRuntimeErrors.h">
+      <Filter>Error</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Dark Basic Pro SDK\SHARED\Data\CDataC.h">
+      <Filter>Data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Dark Basic Pro SDK\Shared\Sound\ADPCMtoWAV.h" />
+    <ClInclude Include="..\..\..\..\Dark Basic Pro SDK\SHARED\Core\globstruct.h" />
+  </ItemGroup>
+</Project>

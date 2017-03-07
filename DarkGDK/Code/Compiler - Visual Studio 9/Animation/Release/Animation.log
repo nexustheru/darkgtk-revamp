@@ -1,0 +1,17 @@
+﻿  CAnimation.cpp
+C:\Program Files (x86)\Windows Kits\8.0\Include\um\strmif.h(21776): error C2146: syntax error : missing ';' before identifier 'lpSurf'
+C:\Program Files (x86)\Windows Kits\8.0\Include\um\strmif.h(21776): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Program Files (x86)\Windows Kits\8.0\Include\um\strmif.h(21943): error C2061: syntax error : identifier 'LPDIRECTDRAWSURFACE7'
+C:\Program Files (x86)\Windows Kits\8.0\Include\um\strmif.h(21950): error C2061: syntax error : identifier 'LPDIRECTDRAWSURFACE7'
+C:\Program Files (x86)\Windows Kits\8.0\Include\um\strmif.h(22064): error C2061: syntax error : identifier 'LPDIRECTDRAW7'
+C:\Program Files (x86)\Windows Kits\8.0\Include\um\strmif.h(22068): error C2061: syntax error : identifier 'LPDIRECTDRAW7'
+C:\Program Files (x86)\Windows Kits\8.0\Include\um\strmif.h(23298): error C2146: syntax error : missing ';' before identifier 'pDDS'
+C:\Program Files (x86)\Windows Kits\8.0\Include\um\strmif.h(23298): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Program Files (x86)\Windows Kits\8.0\Include\um\strmif.h(23422): error C2146: syntax error : missing ';' before identifier 'pddsVideoSurface'
+C:\Program Files (x86)\Windows Kits\8.0\Include\um\strmif.h(23422): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Program Files (x86)\Windows Kits\8.0\Include\um\strmif.h(23453): error C2061: syntax error : identifier 'LPDIRECTDRAWSURFACE7'
+C:\Program Files (x86)\Windows Kits\8.0\Include\um\strmif.h(23457): error C2061: syntax error : identifier 'LPDIRECTDRAWSURFACE7'
+C:\Program Files (x86)\Windows Kits\8.0\Include\um\strmif.h(23466): error C2061: syntax error : identifier 'LPDIRECTDRAWSURFACE7'
+C:\Program Files (x86)\Windows Kits\8.0\Include\um\strmif.h(23701): error C2061: syntax error : identifier 'LPDIRECTDRAWSURFACE7'
+C:\Program Files (x86)\Windows Kits\8.0\Include\um\strmif.h(23890): error C2061: syntax error : identifier 'LPDIRECTDRAW7'
+C:\Program Files (x86)\Windows Kits\8.0\Include\um\strmif.h(23894): error C2061: syntax error : identifier 'LPDIRECTDRAW7'

@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Input">
+      <UniqueIdentifier>{06bba42c-90b2-4ca0-8433-58185c86fc16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Error">
+      <UniqueIdentifier>{09d8561c-5550-404a-bfc1-23671803a663}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\Dark Basic Pro SDK\SHARED\Input\CInputC.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Dark Basic Pro SDK\Shared\Input\Controller.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Dark Basic Pro SDK\SHARED\Core\globstruct.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\Dark Basic Pro SDK\SHARED\Input\CInputC.h">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Dark Basic Pro SDK\Shared\Input\Controller.h">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Dark Basic Pro SDK\SHARED\Error\CError.h">
+      <Filter>Error</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

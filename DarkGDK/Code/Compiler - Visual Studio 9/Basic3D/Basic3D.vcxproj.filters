@@ -1,0 +1,258 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Objects">
+      <UniqueIdentifier>{93e7389b-6989-4980-be43-97e2fcf0b5bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Position">
+      <UniqueIdentifier>{0fe146ca-b008-45b0-a4b9-33ba9ec4532c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Error">
+      <UniqueIdentifier>{05081662-366e-46c9-a66e-19fc2db4b0ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Collision">
+      <UniqueIdentifier>{5414f4f3-dce5-4788-a940-0c0f9a8bf80e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Collision\Mechanics">
+      <UniqueIdentifier>{9fbdf2d4-fffa-440e-bb2a-3b9c01204db7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Collision\Elipsoid">
+      <UniqueIdentifier>{9a353049-dfbf-407d-bf77-4899dd8eb8ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DBO">
+      <UniqueIdentifier>{4e8cefbe-dd4f-4e46-8957-b73728b1dee9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Universe">
+      <UniqueIdentifier>{7f3abaee-5fd4-4b6d-ab30-f528282933a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CSG">
+      <UniqueIdentifier>{29a30835-3901-4670-99e8-79dec2292f1b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CSG\Compiler">
+      <UniqueIdentifier>{ec6fa0d2-3d17-4fe4-a6da-e24c03912768}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\Dark Basic Pro SDK\SHARED\Camera\CCameraDataC.h">
+      <Filter>Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Dark Basic Pro SDK\SHARED\OBJECTS\CObjectDataC.h">
+      <Filter>Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Dark Basic Pro SDK\SHARED\OBJECTS\CObjectManagerC.h">
+      <Filter>Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Dark Basic Pro SDK\SHARED\OBJECTS\CObjectsNewC.h">
+      <Filter>Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Dark Basic Pro SDK\SHARED\OBJECTS\CommonC.h">
+      <Filter>Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Dark Basic Pro SDK\SHARED\Core\globstruct.h">
+      <Filter>Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Dark Basic Pro SDK\SHARED\OBJECTS\CPositionC.h">
+      <Filter>Position</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Dark Basic Pro SDK\SHARED\Error\CError.h">
+      <Filter>Error</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Dark Basic Pro SDK\SHARED\Error\CRuntimeErrors.h">
+      <Filter>Error</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Dark Basic Pro SDK\SHARED\OBJECTS\BoxCollision\3DCol.h">
+      <Filter>Collision\Mechanics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Dark Basic Pro SDK\SHARED\OBJECTS\BoxCollision\cBoxCol.h">
+      <Filter>Collision\Mechanics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Dark Basic Pro SDK\SHARED\OBJECTS\BoxCollision\CCollision.h">
+      <Filter>Collision\Mechanics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Dark Basic Pro SDK\SHARED\OBJECTS\BoxCollision\PolyPool.h">
+      <Filter>Collision\Mechanics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Dark Basic Pro SDK\SHARED\OBJECTS\ElipsoidCollision\col_global.h">
+      <Filter>Collision\Elipsoid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Dark Basic Pro SDK\SHARED\OBJECTS\ElipsoidCollision\col_local.h">
+      <Filter>Collision\Elipsoid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Dark Basic Pro SDK\SHARED\OBJECTS\ElipsoidCollision\Collision.h">
+      <Filter>Collision\Elipsoid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Dark Basic Pro SDK\SHARED\DBOFORMAT\DBOBlock.h">
+      <Filter>DBO</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Dark Basic Pro SDK\SHARED\DBOFORMAT\DBOData.h">
+      <Filter>DBO</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Dark Basic Pro SDK\SHARED\DBOFORMAT\DBOEffects.h">
+      <Filter>DBO</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Dark Basic Pro SDK\SHARED\DBOFORMAT\DBOExternals.h">
+      <Filter>DBO</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Dark Basic Pro SDK\SHARED\DBOFORMAT\DBOFile.h">
+      <Filter>DBO</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Dark Basic Pro SDK\SHARED\DBOFORMAT\DBOFormat.h">
+      <Filter>DBO</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Dark Basic Pro SDK\SHARED\DBOFORMAT\DBOFrame.h">
+      <Filter>DBO</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Dark Basic Pro SDK\SHARED\DBOFORMAT\DBOMesh.h">
+      <Filter>DBO</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Dark Basic Pro SDK\SHARED\DBOFORMAT\DBORawMesh.h">
+      <Filter>DBO</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Dark Basic Pro SDK\SHARED\DBOFORMAT\Extras\NVMeshMender.h">
+      <Filter>DBO</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Dark Basic Pro SDK\SHARED\Data\CDataC.h">
+      <Filter>Universe</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Dark Basic Pro SDK\SHARED\OBJECTS\cLightMaps.h">
+      <Filter>Universe</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Dark Basic Pro SDK\SHARED\OBJECTS\Universe.h">
+      <Filter>Universe</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Dark Basic Pro SDK\SHARED\OBJECTS\CSG.h">
+      <Filter>CSG</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Dark Basic Pro SDK\SHARED\OBJECTS\Compiler\CBounds.h">
+      <Filter>CSG\Compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Dark Basic Pro SDK\SHARED\OBJECTS\Compiler\CBSPTree.h">
+      <Filter>CSG\Compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Dark Basic Pro SDK\SHARED\OBJECTS\Compiler\CCompiler.h">
+      <Filter>CSG\Compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Dark Basic Pro SDK\SHARED\OBJECTS\Compiler\Common.h">
+      <Filter>CSG\Compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Dark Basic Pro SDK\SHARED\OBJECTS\Compiler\CompilerTypes.h">
+      <Filter>CSG\Compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Dark Basic Pro SDK\SHARED\OBJECTS\Compiler\CPlane.h">
+      <Filter>CSG\Compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Dark Basic Pro SDK\SHARED\OBJECTS\Compiler\CPortals.h">
+      <Filter>CSG\Compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Dark Basic Pro SDK\SHARED\OBJECTS\Compiler\CVector.h">
+      <Filter>CSG\Compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Dark Basic Pro SDK\SHARED\OBJECTS\Compiler\ProcessHSR.h">
+      <Filter>CSG\Compiler</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\Dark Basic Pro SDK\SHARED\OBJECTS\CObjectManagerC.cpp">
+      <Filter>Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Dark Basic Pro SDK\SHARED\OBJECTS\CObjectsC.cpp">
+      <Filter>Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Dark Basic Pro SDK\SHARED\OBJECTS\CommonC.cpp">
+      <Filter>Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Dark Basic Pro SDK\SHARED\OBJECTS\CPositionC.cpp">
+      <Filter>Position</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Dark Basic Pro SDK\SHARED\OBJECTS\BoxCollision\3DCol.cpp">
+      <Filter>Collision\Mechanics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Dark Basic Pro SDK\SHARED\OBJECTS\BoxCollision\cBoxCol.cpp">
+      <Filter>Collision\Mechanics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Dark Basic Pro SDK\SHARED\OBJECTS\BoxCollision\CCollision.cpp">
+      <Filter>Collision\Mechanics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Dark Basic Pro SDK\SHARED\OBJECTS\BoxCollision\PolyPool.cpp">
+      <Filter>Collision\Mechanics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Dark Basic Pro SDK\SHARED\OBJECTS\ElipsoidCollision\col_response.cpp">
+      <Filter>Collision\Elipsoid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Dark Basic Pro SDK\SHARED\OBJECTS\ElipsoidCollision\col_step.cpp">
+      <Filter>Collision\Elipsoid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Dark Basic Pro SDK\SHARED\OBJECTS\ElipsoidCollision\col_types.cpp">
+      <Filter>Collision\Elipsoid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Dark Basic Pro SDK\SHARED\OBJECTS\ElipsoidCollision\Collision.cpp">
+      <Filter>Collision\Elipsoid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Dark Basic Pro SDK\SHARED\DBOFORMAT\DBOBlock.cpp">
+      <Filter>DBO</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Dark Basic Pro SDK\SHARED\DBOFORMAT\DBOData.cpp">
+      <Filter>DBO</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Dark Basic Pro SDK\SHARED\DBOFORMAT\DBOEffects.cpp">
+      <Filter>DBO</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Dark Basic Pro SDK\SHARED\DBOFORMAT\DBOExternals.cpp">
+      <Filter>DBO</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Dark Basic Pro SDK\SHARED\DBOFORMAT\DBOFile.cpp">
+      <Filter>DBO</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Dark Basic Pro SDK\SHARED\DBOFORMAT\DBOFormat.cpp">
+      <Filter>DBO</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Dark Basic Pro SDK\SHARED\DBOFORMAT\DBOFrame.cpp">
+      <Filter>DBO</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Dark Basic Pro SDK\SHARED\DBOFORMAT\DBOMesh.cpp">
+      <Filter>DBO</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Dark Basic Pro SDK\SHARED\DBOFORMAT\DBORawMesh.cpp">
+      <Filter>DBO</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Dark Basic Pro SDK\SHARED\DBOFORMAT\Extras\NVMeshMenderD3DX.cpp">
+      <Filter>DBO</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Dark Basic Pro SDK\SHARED\Data\CDataC.cpp">
+      <Filter>Universe</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Dark Basic Pro SDK\SHARED\OBJECTS\cLightMaps.cpp">
+      <Filter>Universe</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Dark Basic Pro SDK\SHARED\OBJECTS\Universe.cpp">
+      <Filter>Universe</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Dark Basic Pro SDK\SHARED\OBJECTS\CSG.cpp">
+      <Filter>CSG</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Dark Basic Pro SDK\SHARED\OBJECTS\Compiler\CBounds.cpp">
+      <Filter>CSG\Compiler</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Dark Basic Pro SDK\SHARED\OBJECTS\Compiler\CBSPTree.cpp">
+      <Filter>CSG\Compiler</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Dark Basic Pro SDK\SHARED\OBJECTS\Compiler\CCompiler.cpp">
+      <Filter>CSG\Compiler</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Dark Basic Pro SDK\SHARED\OBJECTS\Compiler\CompilerTypes.cpp">
+      <Filter>CSG\Compiler</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Dark Basic Pro SDK\SHARED\OBJECTS\Compiler\CPlane.cpp">
+      <Filter>CSG\Compiler</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Dark Basic Pro SDK\SHARED\OBJECTS\Compiler\CPortals.cpp">
+      <Filter>CSG\Compiler</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Dark Basic Pro SDK\SHARED\OBJECTS\Compiler\CVector.cpp">
+      <Filter>CSG\Compiler</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Dark Basic Pro SDK\SHARED\OBJECTS\Compiler\ProcessHSR.cpp">
+      <Filter>CSG\Compiler</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

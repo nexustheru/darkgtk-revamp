@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Music">
+      <UniqueIdentifier>{26e31323-a6d3-46f2-9dc5-b64323809734}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Error">
+      <UniqueIdentifier>{d54922c7-5252-4f66-8500-33202767e88e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data">
+      <UniqueIdentifier>{7f2ae5dc-1a5d-45f1-9253-46e6805caf8f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\Dark Basic Pro SDK\SHARED\Music\CMusicC.cpp">
+      <Filter>Music</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Dark Basic Pro SDK\SHARED\Music\CMusicManagerC.cpp">
+      <Filter>Music</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Dark Basic Pro SDK\SHARED\Data\CDataC.cpp">
+      <Filter>Data</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\Dark Basic Pro SDK\SHARED\Music\CMusicC.h">
+      <Filter>Music</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Dark Basic Pro SDK\SHARED\Music\CMusicDataC.h">
+      <Filter>Music</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Dark Basic Pro SDK\SHARED\Music\CMusicManagerC.h">
+      <Filter>Music</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Dark Basic Pro SDK\SHARED\Error\CError.h">
+      <Filter>Error</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Dark Basic Pro SDK\SHARED\Error\CRuntimeErrors.h">
+      <Filter>Error</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Dark Basic Pro SDK\SHARED\Data\CDataC.h">
+      <Filter>Data</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

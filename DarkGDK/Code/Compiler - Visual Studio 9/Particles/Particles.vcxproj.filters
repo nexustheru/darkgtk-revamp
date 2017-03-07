@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Particles">
+      <UniqueIdentifier>{9711e488-403e-4856-a8c0-9f7339e6ac4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Particles\Presets">
+      <UniqueIdentifier>{16ccbc2f-eb6c-4619-a02e-0a2742d6e655}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Particles\Presets\Snow">
+      <UniqueIdentifier>{578c3671-e3f5-490d-a086-bf5ac08963a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data">
+      <UniqueIdentifier>{d4e8e66e-0afe-408f-a635-af9487c245bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Position">
+      <UniqueIdentifier>{d818260c-f69c-408f-8fb5-61e182ad7dba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Error">
+      <UniqueIdentifier>{e023de0a-00d9-47dd-82a0-2ad25f72a716}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\Dark Basic Pro SDK\SHARED\SPECIALEFFECTS\CParticleC.cpp">
+      <Filter>Particles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Dark Basic Pro SDK\SHARED\SPECIALEFFECTS\CParticleManagerC.cpp">
+      <Filter>Particles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Dark Basic Pro SDK\SHARED\SPECIALEFFECTS\CBaseParticleC.cpp">
+      <Filter>Particles\Presets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Dark Basic Pro SDK\SHARED\SPECIALEFFECTS\CSnowC.cpp">
+      <Filter>Particles\Presets\Snow</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Dark Basic Pro SDK\SHARED\Data\CDataC.cpp">
+      <Filter>Data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Dark Basic Pro SDK\SHARED\SPECIALEFFECTS\CPositionC.cpp">
+      <Filter>Position</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\Dark Basic Pro SDK\SHARED\SPECIALEFFECTS\CParticleC.h">
+      <Filter>Particles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Dark Basic Pro SDK\SHARED\SPECIALEFFECTS\CParticleDataC.h">
+      <Filter>Particles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Dark Basic Pro SDK\SHARED\SPECIALEFFECTS\CParticleManagerC.h">
+      <Filter>Particles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Dark Basic Pro SDK\SHARED\SPECIALEFFECTS\CBaseParticleC.h">
+      <Filter>Particles\Presets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Dark Basic Pro SDK\SHARED\SPECIALEFFECTS\CSnowC.h">
+      <Filter>Particles\Presets\Snow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Dark Basic Pro SDK\SHARED\Data\CDataC.h">
+      <Filter>Data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Dark Basic Pro SDK\SHARED\SPECIALEFFECTS\CPositionC.h">
+      <Filter>Position</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Dark Basic Pro SDK\SHARED\Error\CError.h">
+      <Filter>Error</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Dark Basic Pro SDK\SHARED\Error\CRuntimeErrors.h">
+      <Filter>Error</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

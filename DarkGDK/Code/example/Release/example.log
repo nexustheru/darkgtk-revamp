@@ -1,0 +1,13 @@
+﻿  Compiling example..h using MOC
+  Compiling example..ui using Uic
+  example.cpp
+  moc_example.cpp
+  Generating code
+  Finished generating code
+Music.lib(CMusicC.obj) : warning LNK4049: locally defined symbol _atoi imported
+Music.lib(CMusicC.obj) : warning LNK4049: locally defined symbol __itoa imported
+Animation.lib(CAnimation.obj) : warning LNK4099: PDB 'vc110.pdb' was not found with 'Animation.lib(CAnimation.obj)' or at 'C:\Users\tess\Documents\Visual Studio 2012\Projects\DarkGDK - Unofficial r114(full source)\DarkGDK\DarkGDK\Code\Compiler - Visual Studio 9\Release\vc110.pdb'; linking object as if no debug info
+Multiplayer.lib(CMultiplayerC.obj) : warning LNK4099: PDB 'vc110.pdb' was not found with 'Multiplayer.lib(CMultiplayerC.obj)' or at 'C:\Users\tess\Documents\Visual Studio 2012\Projects\DarkGDK - Unofficial r114(full source)\DarkGDK\DarkGDK\Code\Compiler - Visual Studio 9\Release\vc110.pdb'; linking object as if no debug info
+Music.lib(CMusicC.obj) : warning LNK4099: PDB 'vc110.pdb' was not found with 'Music.lib(CMusicC.obj)' or at 'C:\Users\tess\Documents\Visual Studio 2012\Projects\DarkGDK - Unofficial r114(full source)\DarkGDK\DarkGDK\Code\Compiler - Visual Studio 9\Release\vc110.pdb'; linking object as if no debug info
+Music.lib(CMusicManagerC.obj) : warning LNK4099: PDB 'vc110.pdb' was not found with 'Music.lib(CMusicManagerC.obj)' or at 'C:\Users\tess\Documents\Visual Studio 2012\Projects\DarkGDK - Unofficial r114(full source)\DarkGDK\DarkGDK\Code\Compiler - Visual Studio 9\Release\vc110.pdb'; linking object as if no debug info
+  example.vcxproj -> C:\Users\tess\Documents\Visual Studio 2012\Projects\DarkGDK - Unofficial r114(full source)\DarkGDK\DarkGDK\Code\Compiler - Visual Studio 9\Release\example.exe

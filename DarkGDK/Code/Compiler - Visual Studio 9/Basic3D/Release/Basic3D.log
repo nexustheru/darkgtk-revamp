@@ -1,0 +1,39 @@
+﻿  CObjectManagerC.cpp
+  CObjectsC.cpp
+  CommonC.cpp
+  CPositionC.cpp
+  3DCol.cpp
+  cBoxCol.cpp
+  CCollision.cpp
+  PolyPool.cpp
+  col_response.cpp
+  col_step.cpp
+  col_types.cpp
+  Collision.cpp
+  DBOBlock.cpp
+  DBOData.cpp
+  DBOEffects.cpp
+  DBOExternals.cpp
+  DBOFile.cpp
+  DBOFormat.cpp
+  DBOFrame.cpp
+  DBOMesh.cpp
+  Generating Code...
+  Compiling...
+  DBORawMesh.cpp
+  NVMeshMenderD3DX.cpp
+  CDataC.cpp
+  cLightMaps.cpp
+  Universe.cpp
+  CSG.cpp
+  CBounds.cpp
+  CBSPTree.cpp
+  CCompiler.cpp
+  CompilerTypes.cpp
+  CPlane.cpp
+  CPortals.cpp
+  CVector.cpp
+  ProcessHSR.cpp
+  Generating Code...
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets(1299,5): warning MSB8012: TargetPath(C:\Users\tess\Documents\Visual Studio 2012\Projects\DarkGDK - Unofficial r114(full source)\DarkGDK\DarkGDK\Code\Compiler - Visual Studio 9\Basic3D\.\Release\Basic3D.lib) does not match the Library's OutputFile property value (C:\Users\tess\Documents\Visual Studio 2012\Projects\DarkGDK - Unofficial r114(full source)\DarkGDK\DarkGDK\Code\Lib\VS9\Basic3D.lib). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+  Basic3D.vcxproj -> C:\Users\tess\Documents\Visual Studio 2012\Projects\DarkGDK - Unofficial r114(full source)\DarkGDK\DarkGDK\Code\Compiler - Visual Studio 9\Basic3D\.\Release\Basic3D.lib
