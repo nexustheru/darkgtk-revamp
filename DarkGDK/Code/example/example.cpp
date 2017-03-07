@@ -6,7 +6,27 @@ example::example(QWidget *parent) :
 	QMainWindow(parent),
 	ui(new Ui::example)
 {
+	QTimer *timer = new QTimer(this);
+	connect(timer, SIGNAL(timeout()), this, SLOT(update()));
+	timer->start(1000);
 	ui->setupUi(this);
+	//
+	dbSyncOn         ( );
+	dbSyncRate       ( 60 );
+	if(!LoadSDKDLLs ( ))
+		std::cout << "sdkerror";
+	if(!CreateSDKApplication(this->width(),this->height(),GetModuleHandle ( NULL ),(HWND)this->winId()))
+		std::cout << "apperror";
+    dbMakeObjectCube ( 1, 10 );
+}
+
+void example::update()
+{
+	while ( LoopGDK ( ) )
+	{
+		dbRotateObject ( 1, dbObjectAngleX ( 1 ) + 0.1f, dbObjectAngleY ( 1 ) + 0.1f, dbObjectAngleZ ( 1 ) + 0.1f );
+		dbSync ( );
+	}	
 	
 }
 
@@ -17,21 +37,8 @@ example::~example()
 
 int main(int argc, char *argv[])
 {
-	dbSyncOn         ( );
-	dbSyncRate       ( 60 );
+	
 	QApplication a(argc, argv);
 	example w;
-	//dbPassDLLs();
-	if(!LoadSDKDLLs ( ))
-		std::cout << "sdkerror";
-	if(!CreateSDKApplication(w.width(),w.height(),GetModuleHandle ( NULL ),(HWND)w.winId()))
-		std::cout << "apperror";
-
-	dbMakeObjectCube ( 1, 10 );
-	while ( LoopGDK ( ) )
-	{
-		dbRotateObject ( 1, dbObjectAngleX ( 1 ) + 0.1f, dbObjectAngleY ( 1 ) + 0.1f, dbObjectAngleZ ( 1 ) + 0.1f );
-		dbSync ( );
-	}	
 return a.exec();	
 }
